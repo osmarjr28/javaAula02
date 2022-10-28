@@ -14,10 +14,10 @@ public class Exerc04 {
 		n = read.nextInt();
 		
 		if(n % 2 == 0 ) {
-			System.out.println("Digite é par." +"E raiz quadrada" + " = " + n*n);
+			System.out.println("Digitado é par." +"E raiz quadrada" + " = " + Math.sqrt( n));
 	
 		}else {
-			System.out.println("Digite é impar");
+			System.out.println("Digite é impar" + Math.pow(n,2));
 		}
 	}
 
